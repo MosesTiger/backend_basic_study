@@ -7,3 +7,6 @@ function onRequest(request, response){
 }
 
 http.createServer(onRequest).listen(8888);
+
+//http 모듈에 createServer 함수에서 할일을 다한 다음에
+// onRequest 콜백 함수를 실행시켜달라고 매개변수로 던진 것이다. 
